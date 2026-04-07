@@ -3,8 +3,8 @@ import { MapPin } from 'lucide-react';
 
 export default function Location() {
   return (
-    <section id="location" className="py-24 bg-cream text-charcoal flex flex-col items-center">
-      <div className="max-w-6xl mx-auto px-6 w-full">
+    <section id="location" className="py-16 md:py-24 bg-cream text-charcoal flex flex-col items-center">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 w-full">
         
         <motion.div
            initial={{ opacity: 0, scale: 0.95 }}
@@ -28,7 +28,7 @@ export default function Location() {
              whileInView={{ opacity: 1, x: 0 }}
              viewport={{ once: true }}
              transition={{ duration: 1 }}
-             className="w-full h-[400px] border-4 border-white shadow-xl bg-gray-200 relative overflow-hidden"
+             className="w-full h-[300px] sm:h-[400px] border-4 border-white shadow-xl bg-gray-200 relative overflow-hidden"
           >
             <iframe
               src="https://maps.google.com/maps?q=11.735652,75.5448685&z=17&output=embed"
@@ -47,7 +47,7 @@ export default function Location() {
              whileInView={{ opacity: 1, x: 0 }}
              viewport={{ once: true }}
              transition={{ duration: 1 }}
-             className="flex flex-col items-center justify-center p-8 border border-gold/30 bg-white"
+             className="flex flex-col items-center justify-center p-6 md:p-8 border border-gold/30 bg-white"
           >
             <div className="mb-8 p-4 bg-white shadow-sm border border-gold/10 inline-block">
               <img

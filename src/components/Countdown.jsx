@@ -28,7 +28,7 @@ export default function Countdown({ targetDate }) {
   const timerComponents = [];
   Object.keys(timeLeft).forEach((interval) => {
     timerComponents.push(
-      <div key={interval} className="flex flex-col items-center justify-center p-4 bg-charcoal text-cream rounded shadow-md border border-gold/20 min-w-[80px]">
+      <div key={interval} className="flex flex-col items-center justify-center p-3 sm:p-4 bg-charcoal text-cream rounded shadow-md border border-gold/20 min-w-[70px] sm:min-w-[80px]">
         <span className="text-3xl font-serif text-gold mb-1">
            {timeLeft[interval] !== undefined ? String(timeLeft[interval]).padStart(2, '0') : '00'}
         </span>

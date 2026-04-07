@@ -41,9 +41,10 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1, duration: 1.2 }}
-          className="font-script text-6xl md:text-8xl lg:text-9xl text-gold mb-6 leading-tight drop-shadow-sm"
+          className="font-script text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-gold mb-6 leading-[1.3] drop-shadow-sm text-center max-w-[90%] mx-auto sm:max-w-none"
+          style={{ whiteSpace: 'normal', wordBreak: 'keep-all' }}
         >
-          Nivedh & Dr. Aiswarya
+          Nivedh &amp; Dr.&nbsp;Aiswarya
         </motion.h1>
 
         <motion.div

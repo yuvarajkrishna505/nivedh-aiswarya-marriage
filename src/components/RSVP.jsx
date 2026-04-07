@@ -11,8 +11,8 @@ export default function RSVP() {
   };
 
   return (
-    <section id="rsvp" className="py-24 bg-charcoal text-cream relative overflow-hidden">
-      <div className="max-w-2xl mx-auto px-6 relative z-10">
+    <section id="rsvp" className="py-16 md:py-24 bg-charcoal text-cream relative overflow-hidden">
+      <div className="max-w-2xl mx-auto px-4 sm:px-6 relative z-10">
 
         {/* Section Heading */}
         <motion.div
@@ -38,14 +38,14 @@ export default function RSVP() {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.97 }}
                 transition={{ duration: 0.5 }}
-                className="bg-cream shadow-[0_0_30px_rgba(212,175,55,0.08)] border border-gold/20 px-10 md:px-16 py-12"
+                className="bg-cream shadow-[0_0_30px_rgba(212,175,55,0.08)] border border-gold/20 px-6 sm:px-10 md:px-16 py-8 md:py-12"
               >
-                <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col items-center">
+                <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col items-center w-full">
 
                   {/* Textarea Field */}
-                  <div className="w-full" style={{ maxWidth: '75%' }}>
+                  <div className="w-full md:max-w-[75%]">
                     <label
-                      className="block text-charcoal font-serif uppercase tracking-widest text-xs mb-4"
+                      className="block text-charcoal font-serif uppercase tracking-widest text-xs mb-4 text-center md:text-left"
                       htmlFor="message"
                     >
                       Message / Wishes
@@ -92,9 +92,9 @@ export default function RSVP() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: 'easeOut' }}
-                className="flex flex-col items-center justify-center text-center py-16"
+                className="flex flex-col items-center justify-center text-center py-12 md:py-16 px-4"
               >
-                <p className="font-script text-5xl md:text-6xl text-gold mb-6 leading-tight">
+                <p className="font-script text-4xl sm:text-5xl md:text-6xl text-gold mb-6 leading-tight">
                   Thank you for your lovely wishes ❤️
                 </p>
                 <div className="w-12 h-px bg-gold/40 mb-6"></div>

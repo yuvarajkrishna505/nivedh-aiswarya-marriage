@@ -5,8 +5,8 @@ export default function EventDetails() {
   const targetDate = "2026-05-10T17:00:00"; // May 10 2026 5:00 PM
 
   return (
-    <section id="details" className="py-24 bg-cream text-charcoal flex flex-col items-center">
-      <div className="max-w-5xl mx-auto w-full px-6">
+    <section id="details" className="py-16 md:py-24 bg-cream text-charcoal flex flex-col items-center">
+      <div className="max-w-5xl mx-auto w-full px-4 sm:px-6">
         
         <motion.div 
           initial={{ opacity: 0, y: 30 }}

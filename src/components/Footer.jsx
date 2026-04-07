@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 
 export default function Footer() {
   return (
-    <footer className="py-24 bg-charcoal text-cream flex flex-col items-center">
-      <div className="max-w-4xl mx-auto px-6 text-center">
+    <footer className="py-16 md:py-24 bg-charcoal text-cream flex flex-col items-center overflow-hidden">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center w-full">
         
         <motion.div
            initial={{ opacity: 0, y: 30 }}
