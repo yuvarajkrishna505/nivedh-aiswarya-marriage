@@ -24,7 +24,7 @@ export default function Invitation() {
           </h2>
 
           <p className="text-base md:text-lg font-light leading-relaxed max-w-2xl mx-auto text-charcoal/80">
-            To celebrate the love and union of our children. <br className="hidden md:inline" />
+            <br className="hidden md:inline" />
             Join us for an evening of joy, dancing, and heartfelt memories as we step into this new chapter of our lives together.
           </p>
 
