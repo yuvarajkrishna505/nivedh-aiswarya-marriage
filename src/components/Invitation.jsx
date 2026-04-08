@@ -24,12 +24,12 @@ export default function Invitation() {
           </h2>
 
           <p className="text-base md:text-lg font-light leading-relaxed max-w-2xl mx-auto text-charcoal/80">
-             To celebrate the love and union of their children. <br className="hidden md:inline" />
-             Join us for an evening of joy, dancing, and heartfelt memories as we step into this new chapter of our lives together.
+            To celebrate the love and union of our children. <br className="hidden md:inline" />
+            Join us for an evening of joy, dancing, and heartfelt memories as we step into this new chapter of our lives together.
           </p>
 
           <div className="py-8 w-full">
-            <span 
+            <span
               className="font-script text-4xl sm:text-5xl md:text-7xl text-gold block leading-[1.3]"
               style={{ whiteSpace: 'normal', wordBreak: 'break-word' }}
             >
